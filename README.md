@@ -102,7 +102,9 @@ Customer segmentation was performed using K-Means Clustering.
 - Built K-Means models for multiple values of K.
 > Evaluated models using:
 - 📉 Elbow Method
+![Elbow plot](/workspaces/Customer_Segmentation_KMeans_Clustering/images/inertia_errors.png)
 - 📏 Silhouette Score
+![Silhouette Scores](/workspaces/Customer_Segmentation_KMeans_Clustering/images/silhouette_scores.png)
 > Compared cluster distributions.
 > Selected the optimal number of customer segments.
 
@@ -111,6 +113,14 @@ After evaluating several models, 5 clusters were selected as the final solution,
 # 👥 Customer Segmentation
 
 The final model identified five distinct customer segments.
+### 📊 Cluster Analysis
+![Average Total Spending](/workspaces/Customer_Segmentation_KMeans_Clustering/images/average_total_spending_by_clusters.png)
+![Average Order Value](/workspaces/Customer_Segmentation_KMeans_Clustering/images/average_order_value_by_clusters.png)
+![Average Recency](/workspaces/Customer_Segmentation_KMeans_Clustering/images/average_recency_by_clusters.png)
+![Items Purchased](/workspaces/Customer_Segmentation_KMeans_Clustering/images/items_purchased_by_clusters.png)
+![Average Orders](/workspaces/Customer_Segmentation_KMeans_Clustering/images/orders_by_clusters.png)
+![Full Cluster Summary](/workspaces/Customer_Segmentation_KMeans_Clustering/images/full_cluster_summary.png)
+
 
 #### 🏆 Cluster 0 — Premium / Bulk Buyers
 > Characteristics
